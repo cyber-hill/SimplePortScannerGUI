@@ -54,8 +54,8 @@ def listport():
     else:
         greeting.delete("1.0", END)
         lists = []
-        s = 80
-        while s <= 90:
+        s = 0
+        while s <= 1024:
             lists.append(s)
             s += 1
         # port=[1,80,443]
